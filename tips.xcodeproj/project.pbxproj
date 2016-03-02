@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		F92C668E1C832F3500FFCFA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92C668D1C832F3500FFCFA4 /* AppDelegate.swift */; };
 		F92C66901C832F3500FFCFA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92C668F1C832F3500FFCFA4 /* ViewController.swift */; };
-		F92C66931C832F3500FFCFA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92C66911C832F3500FFCFA4 /* Main.storyboard */; };
 		F92C66951C832F3500FFCFA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92C66941C832F3500FFCFA4 /* Assets.xcassets */; };
-		F92C66981C832F3500FFCFA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92C66961C832F3500FFCFA4 /* LaunchScreen.storyboard */; };
 		F92C66A31C832F3500FFCFA4 /* tipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92C66A21C832F3500FFCFA4 /* tipsTests.swift */; };
 		F92C66AE1C832F3500FFCFA4 /* tipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92C66AD1C832F3500FFCFA4 /* tipsUITests.swift */; };
+		F94141CE1C869EA1007DFB70 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94141CD1C869EA1007DFB70 /* SettingsViewController.swift */; };
+		F94141D01C86CA40007DFB70 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94141CF1C86CA40007DFB70 /* Launch.storyboard */; };
+		F94141D21C86CA74007DFB70 /* Tips.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94141D11C86CA74007DFB70 /* Tips.storyboard */; };
+		F94141D41C86F4BD007DFB70 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F94141D31C86F4BD007DFB70 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +39,7 @@
 		F92C668A1C832F3500FFCFA4 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92C668D1C832F3500FFCFA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F92C668F1C832F3500FFCFA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F92C66921C832F3500FFCFA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F92C66941C832F3500FFCFA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F92C66971C832F3500FFCFA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F92C66991C832F3500FFCFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F92C669E1C832F3500FFCFA4 /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92C66A21C832F3500FFCFA4 /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
@@ -47,6 +47,10 @@
 		F92C66A91C832F3500FFCFA4 /* tipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92C66AD1C832F3500FFCFA4 /* tipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsUITests.swift; sourceTree = "<group>"; };
 		F92C66AF1C832F3500FFCFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F94141CD1C869EA1007DFB70 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F94141CF1C86CA40007DFB70 /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		F94141D11C86CA74007DFB70 /* Tips.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tips.storyboard; sourceTree = "<group>"; };
+		F94141D31C86F4BD007DFB70 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		F92C66811C832F3500FFCFA4 = {
 			isa = PBXGroup;
 			children = (
+				F94141D31C86F4BD007DFB70 /* .gitignore */,
 				F92C668C1C832F3500FFCFA4 /* tips */,
 				F92C66A11C832F3500FFCFA4 /* tipsTests */,
 				F92C66AC1C832F3500FFCFA4 /* tipsUITests */,
@@ -97,12 +102,13 @@
 		F92C668C1C832F3500FFCFA4 /* tips */ = {
 			isa = PBXGroup;
 			children = (
+				F94141D11C86CA74007DFB70 /* Tips.storyboard */,
 				F92C668D1C832F3500FFCFA4 /* AppDelegate.swift */,
 				F92C668F1C832F3500FFCFA4 /* ViewController.swift */,
-				F92C66911C832F3500FFCFA4 /* Main.storyboard */,
 				F92C66941C832F3500FFCFA4 /* Assets.xcassets */,
-				F92C66961C832F3500FFCFA4 /* LaunchScreen.storyboard */,
 				F92C66991C832F3500FFCFA4 /* Info.plist */,
+				F94141CD1C869EA1007DFB70 /* SettingsViewController.swift */,
+				F94141CF1C86CA40007DFB70 /* Launch.storyboard */,
 			);
 			path = tips;
 			sourceTree = "<group>";
@@ -229,9 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F92C66981C832F3500FFCFA4 /* LaunchScreen.storyboard in Resources */,
+				F94141D41C86F4BD007DFB70 /* .gitignore in Resources */,
 				F92C66951C832F3500FFCFA4 /* Assets.xcassets in Resources */,
-				F92C66931C832F3500FFCFA4 /* Main.storyboard in Resources */,
+				F94141D21C86CA74007DFB70 /* Tips.storyboard in Resources */,
+				F94141D01C86CA40007DFB70 /* Launch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 			files = (
 				F92C66901C832F3500FFCFA4 /* ViewController.swift in Sources */,
 				F92C668E1C832F3500FFCFA4 /* AppDelegate.swift in Sources */,
+				F94141CE1C869EA1007DFB70 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +299,6 @@
 			targetProxy = F92C66AA1C832F3500FFCFA4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F92C66911C832F3500FFCFA4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F92C66921C832F3500FFCFA4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F92C66961C832F3500FFCFA4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F92C66971C832F3500FFCFA4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F92C66B01C832F3500FFCFA4 /* Debug */ = {
@@ -398,6 +387,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +399,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +473,7 @@
 				F92C66B41C832F3500FFCFA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F92C66B51C832F3500FFCFA4 /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +482,7 @@
 				F92C66B71C832F3500FFCFA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F92C66B81C832F3500FFCFA4 /* Build configuration list for PBXNativeTarget "tipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +491,7 @@
 				F92C66BA1C832F3500FFCFA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
